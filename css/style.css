@@ -1,0 +1,208 @@
+ul#navlist {
+    padding-top: 20px;
+    margin: 15px 0px 0px 0px;
+    list-style-type: none;
+    width:100%;
+    height: 35px;
+    background-color:grey;
+    
+}
+ul#navlist li {
+    display: inline;
+    
+    
+    
+}
+ul#navlist a:hover {
+    color: #fff;
+    background-color: #0033cc;
+    font-weight: bold;
+    }
+
+ul#navlist a{
+    margin-right: 10px;
+    border: solid 1px;
+    background-color: honeydew;
+    padding: 5px 10px 5px 10px;
+    padding-top: 5px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    width: 7em;
+    background-repeat: no-repeat;
+
+
+
+}
+.header-right {
+    float: right;
+
+
+  }
+
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+.header {
+    overflow: hidden;
+    background-color: gray;
+    padding: 20px 10px;
+
+}
+body {
+    background-image: url(../images/pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 1200px;
+    color: black;
+
+}
+.statement {
+  height: 100px;
+  width:35%;
+  background-color: none;
+  height: 300px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: cursive;
+  float: left;
+  color: white;
+}
+/*images*/
+.gallery {
+  /*background-color: cyan;*/
+  height: 900px;
+  width: 60%;
+  float: right;
+  
+
+}
+h2 {
+  font-family: cursive;
+  text-align: center;
+}
+.footer{
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom:px;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    margin-right: auto;
+    height: 10%;
+    background-color:grey;
+    color:white;
+    text-align: center;
+}
+
+/*calendar*/
+.set {
+  margin-left: 67px;
+  margin-top: 100px;
+  width:0%;
+}
+
+#cal {
+  display: none;
+  position: absolute;
+  left: 230px;
+  padding-top: 20px;
+  top: 400px;
+  background:darkslategrey;
+  color: white;
+  padding: 10px;
+  -moz-border-radius-topleft: 10px;
+  -webkit-border-top-left-radius: 10px;
+   border-top-left-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -webkit-border-top-right-radius: 10px;
+   border-top-right-radius: 10px;
+}
+
+#cal table {
+  clear: both;
+}
+
+#cal table caption {
+  font-weight: bold;
+  font-size: 14pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgb(46,49,146);
+}
+
+#cal table th {
+  text-align: right;
+}
+
+#cal table th, #cal table td {
+  width: 2em;
+  padding: 4px;
+}
+
+#cal table td {
+  color: rgb(178,184,183);
+  text-align: right;
+  cursor: pointer;
+}
+
+#prev {
+  float: left;
+  padding: 4px;
+  cursor: pointer;
+}
+
+#next {
+  float: right;
+  padding: 4px;
+  cursor: pointer;
+}
+
+#cal table td.futuredate {
+  color: white;
+}
+
+#cal table td.futuredate:hover, #prev:hover, #next:hover, #close:hover {
+  background: yellow;
+  color: black;
+}
+
+#close {
+  color: white;
+  float: right;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+#close span {
+  font-size: 20pt;
+}
+
+/* footer */
+footer {
+  text-align: right;
+  padding-right: 10px;
+}
+
+footer p {
+  display: inline-block;
+  margin-top: 10px;
+  background: black;
+  color: white;
+  font-size: 16px;
+}
+
+footer p span {
+  color: #ffcb40;
+}
+/* sign up */
+
